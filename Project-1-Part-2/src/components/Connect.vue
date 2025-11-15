@@ -35,7 +35,7 @@
                     <img alt="Saving image" src="../assets/connect-saving.jpg" width="347px" height="210"/>
                     <p>Learn how to save smartly by hearing from these 10 women.</p>    
                 </div>
-                <div class="card">
+                <div class="card" id="community-card">
                     <h3 class="card-title" id="yellow">Community</h3>
                     <img alt="Community image" src="../assets/connect-community.png" width="346px" height="210"/>
                     <p>Meet other women who are empowered using Her Capital.</p>
@@ -104,6 +104,7 @@
         font-size: 30px;
         font-family: "Zen Kaku Gothic New", sans-serif;
         color: #000;
+        padding: 0 3rem;
     }
     p{
         font-family: "Zen Kaku Gothic New", sans-serif;
@@ -138,7 +139,7 @@
     }
     .connect-convos{
         margin: 0 0 3rem;
-        padding: 0 3rem;
+        padding: 0;
     }
     .cards-carousel{
         display: flex;
@@ -146,6 +147,7 @@
         flex-wrap: nowrap;
         padding: 2rem 3rem;
         gap: 70px;
+        min-width: min-content;
     }
     .card{
         box-shadow: 5px 10px 20px #505050;
@@ -156,19 +158,22 @@
         height: 450px;
         text-align: center;
         margin: 0;
+        flex-shrink: 0;
+        min-width: 350px;
+    }
+    #community-card{
+        margin-right: 300px;
     }
     .card:hover{
         box-shadow: 10px 18px 25px #656565;
         transition: .3s;
     }
     .scroll{
-        width: calc(100% + 8rem);
-        max-width: 100vw;
-        margin: 0 -3rem;
-        padding: 0.3rem;
+        width: 100vw;
         overflow-x: auto;
         overflow-y: hidden;
         -webkit-overflow-scrolling: touch;
+        /* margin-left: calc(-50vw + 50%) */
     }
     .card-title{
         font-family: "Jomolhari", serif;
@@ -189,8 +194,10 @@
         border-bottom: 1px solid #000;
     }
     .separator{
+        left: -14.9%;
         width: 100vw;
         position: relative;
+        transform: translateX(-50);
         padding: 0;
         box-sizing: border-box;
         margin: 2rem 0;
