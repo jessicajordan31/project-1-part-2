@@ -16,8 +16,8 @@
   <main>
     <!-- Comment out the ones you don't want to see -->
      <!-- <About /> -->
-     <!-- <Connect /> -->
-     <Login />
+     <Connect />
+     <!-- <Login /> -->
   </main>
 </template>
 

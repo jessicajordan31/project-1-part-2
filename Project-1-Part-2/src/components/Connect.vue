@@ -1,4 +1,6 @@
-<!-- jess to do: fix horizontal scroll on cards -->
+<script setup>
+  import Footer from '../components/Footer.vue'
+</script>
 
 <template>
     <!-- Connect Headers -->
@@ -80,7 +82,10 @@
                 </form>
             </div>
         </div>
-        
+     </div><br><br><br><br><br><br>
+
+     <div class="footer"> 
+        <Footer />
      </div>
 </template>
 
@@ -256,5 +261,8 @@
     .btn-w.submit-btn {
         padding: 0.6rem 0.75rem;
         margin: 1.5rem auto 0;
+    }
+    .footer{
+        width: 100vw;
     }
 </style>
