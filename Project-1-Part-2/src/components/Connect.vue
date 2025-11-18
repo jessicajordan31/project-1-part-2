@@ -7,7 +7,7 @@
      <div class="heading">
         <div class="heading-text">
             <h1>Connect with Her Capital</h1>
-            <h2>Build meaningful connections with goal-driven individuals</h2>
+            <h2 id="heading-h2">Build meaningful connections with goal-driven individuals</h2>
             <button class="btn-w">Contact Us</button>
         </div>
      </div>
@@ -101,7 +101,7 @@
     }
     h2, h3{
         font-family: "Zen Kaku Gothic New", sans-serif;
-        font-size: 35px;
+        font-size: 25px;
         color: #000;
     }
     h4{
@@ -126,6 +126,11 @@
         width: 100%;
         max-width: 1200px;
         text-align: center;
+    }
+    #heading-h2{
+        font-family: "Zen Kaku Gothic New", sans-serif;
+        font-weight: 400px;
+        font-size: 35px;
     }
     .btn-w{
         background-color: #fff;
@@ -226,7 +231,7 @@
     .form-box{
         max-width: 700px;
         padding: 2.5rem 3rem;
-        margin-left: 250px;
+        margin-left: 220px;
         box-shadow: 5px 10px 23px #505050;
         border: 3px solid #A3BBE4;
         background-color: #fff;
