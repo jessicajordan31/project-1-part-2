@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    
+   <div class="dashboard-container">
     <h1>HER DASHBOARD</h1>
    <div class="box1">
      <h2>Credit Score</h2>
@@ -33,7 +33,7 @@
         </div>
         <p>20%</p>
    </div>
-   
+   </div>
 </template>
 
 <style>
@@ -89,5 +89,8 @@ p{
     border-radius: 20px;
 }
 
+.dashboard-container{
+    
+}
 
 </style>

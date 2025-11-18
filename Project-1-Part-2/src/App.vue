@@ -12,11 +12,8 @@
     <!--<Dashboard/>-->
     <!-- Comment out the ones you don't want to see -->
     <!--<Login />-->
-    <!-- <Home />  -->
-    <!-- <About /> -->
-    <!-- <Dashboard/> -->
-    <Connect />
-    <!-- <Login /> -->
+    <Connect/>
+     <!--<Home /> -->
   </main>
     
 </template>

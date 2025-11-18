@@ -26,9 +26,6 @@ export default {
 </script>
 
 <style>
-template{
-  margin-top: 0;
-}
 .outer {
     width: 100%;
     margin-left: 50%;
