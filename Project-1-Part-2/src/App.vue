@@ -14,8 +14,8 @@
     <!--<Login />-->
      <!-- <Home />  -->
      <!-- <About /> -->
-     <!-- <Dashboard/> -->
-     <Connect />
+     <Dashboard/>
+     <!-- <Connect /> -->
      <!-- <Login /> -->
   </main>
     

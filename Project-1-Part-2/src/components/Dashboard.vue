@@ -1,4 +1,10 @@
+<script setup>
+    import Header from '../components/Header.vue'
+    import Footer from '../components/Footer.vue'
+</script>
+
 <template>
+    
     <h1>HER DASHBOARD</h1>
    <div class="box1">
      <h2>Credit Score</h2>
@@ -27,7 +33,7 @@
         </div>
         <p>20%</p>
    </div>
-
+   
 </template>
 
 <style>
