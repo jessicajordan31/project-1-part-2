@@ -5,6 +5,7 @@
 </script>
 
 <template>
+    <Header/>
    <div class="dashboard-container">
     <h1>HER DASHBOARD</h1>
    <div class="box1">
