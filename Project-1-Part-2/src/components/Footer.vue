@@ -16,7 +16,7 @@
             <tbody>
                 <tr>
                     <td class="brand-cell">
-                        <img alt="Her Capital Logo" src="../assets/Her Capital.png" class="logo"/>
+                        <img alt="Her Capital Logo" src="../assets/logo2.png" class="logo"/>
                         <h3>Her Capital</h3>
                     </td>
 

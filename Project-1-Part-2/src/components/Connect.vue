@@ -22,7 +22,8 @@
                 <div class="card">
                     <h3 class="card-title" id="yellow">Financial Literacy</h3>
                     <img alt="Financial Literacy Image" src="../assets/connect-financial-litercy.jpg" width="348px" height="210">
-                    <p>Here’s where to start: join the conversation alongside women eager to learn Financial Literacy 101.</p>  
+                    <p>Here’s where to start: join the conversation alongside women eager to learn Financial Literacy 101. Also, check this website: </p>  
+                    <a href="https://money.usnews.com/money/personal-finance/family-finance/articles/best-books-on-financial-literacy-for-women">Financial Literacy</a>
                 </div>
                 <div class="card">
                     <h3 class="card-title" id="blue">Setting Goals</h3>
