@@ -1,11 +1,13 @@
 <script setup>
     import Header from '../components/Header.vue'
     import Footer from '../components/Footer.vue'
+
 </script>
 
 <template>
+    <Header />
    <div class="dashboard-container">
-    <h1>HER DASHBOARD</h1>
+    <h1>Her Dashboard</h1>
    <div class="box1">
      <h2>Credit Score</h2>
      <p>$2000 paid off - $1200 left</p>
@@ -34,6 +36,7 @@
         <p>20%</p>
    </div>
    </div>
+   <Footer />
 </template>
 
 <style>
@@ -90,7 +93,17 @@ p{
 }
 
 .dashboard-container{
-    
+    width: 1200px;
+    margin: auto;
+    background-color: #f0f0f0;
+}
+
+h1{
+    text-align: center;
+    font-family: "Jomolhari", serif;
+    font-size: 80px;
+    color: #000;
+    font-weight: 510;
 }
 
 </style>

@@ -12,7 +12,7 @@
      <!--<Dashboard/>-->
     <!-- Comment out the ones you don't want to see -->
     <!--<Login />-->
-     <!--<Home /> -->
+     <!--<Home />-->
      <Dashboard/>
      <!--Connect />-->
      <!--<Login /> -->
