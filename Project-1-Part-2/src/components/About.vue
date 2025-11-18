@@ -44,6 +44,7 @@
         gap: 50px;
         padding: 20px;
         width: 100%;
+        align-items: center;
     }
     body {
         margin: 0;
@@ -112,8 +113,8 @@
         justify-content: center;
         font-family: "Zen Kaku Gothic New", sans-serif;
         font-size: 22px;
-        margin: 100px;
-        line-height: 50px;
+        margin: 98px;
+        line-height: 47px;
     }
 
 </style>

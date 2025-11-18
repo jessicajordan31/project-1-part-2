@@ -13,10 +13,10 @@
     <!-- Comment out the ones you don't want to see -->
     <!--<Login />-->
      <!-- <Home />  -->
-     <!-- <About /> -->
+     <About />
      <!-- <Dashboard/> -->
-     <Connect />
-     <!-- <Login /> -->
+     <!--Connect />-->
+     <!--<Login /> -->
   </main>
     
 </template>
