@@ -1,8 +1,10 @@
 <script setup>
   import Footer from '../components/Footer.vue'
+  import Header from '../components/Header.vue'
 </script>
 
 <template>
+    <Header />
     <!-- Connect Headers -->
      <div class="heading">
         <div class="heading-text">
@@ -265,5 +267,6 @@
     .btn-w.submit-btn {
         padding: 0.6rem 0.75rem;
         margin: 1.5rem auto 0;
+        text-align: center;
     }
 </style>
