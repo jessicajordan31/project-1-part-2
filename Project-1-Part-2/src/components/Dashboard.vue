@@ -56,6 +56,7 @@ p{
     padding: 40px;
     margin-top: 60px;
     margin-bottom: 60px;
+    box-shadow: 5px 10px 20px #505050;
 }
 .box2{
     border: 2px solid;
@@ -64,6 +65,7 @@ p{
     padding: 40px;
     margin-top: 60px;
     margin-bottom: 60px;
+    box-shadow: 5px 10px 20px #505050;
 }
 .box3{
     border: 2px solid;
@@ -72,6 +74,7 @@ p{
     padding: 40px;
     margin-top: 60px;
     margin-bottom: 60px;
+    box-shadow: 5px 10px 20px #505050;
 }
 
 .progress-bar1{
@@ -94,8 +97,9 @@ p{
 
 .dashboard-container{
     width: 1200px;
-    margin: auto;
+    margin-right: auto;
     background-color: #f0f0f0;
+    
 }
 
 h1{

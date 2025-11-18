@@ -82,11 +82,13 @@
         border-radius: 15px;
         border: #465786 5px solid;
         margin: 50px;
+        box-shadow: 5px 10px 20px #505050;
     }
     .about-img2{
         border-radius: 15px;
         border: #465786 5px solid;
         margin-bottom: .5px;
+        box-shadow: 5px 10px 20px #505050;
     }
     .os{
         justify-content: center;
@@ -109,6 +111,7 @@
         border-radius: 15px;
         border: #465786 5px solid;
         margin: 50px;
+        box-shadow: 5px 10px 20px #505050;
     }
     
     .oi{
