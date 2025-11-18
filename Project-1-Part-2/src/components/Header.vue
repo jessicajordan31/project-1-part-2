@@ -26,12 +26,15 @@ export default {
 </script>
 
 <style>
+template{
+  margin-top: 0;
+}
 .outer {
     width: 100%;
     margin-left: 50%;
     margin-top: 0;
     background-color: #465786;
-    transform: translateX(-50%);
+    /* transform: translateX(-50%); */
     padding: 1rem 0;
     box-sizing: border-box;
 }

@@ -9,16 +9,8 @@
 
 <template>
   <main>
-     <!--<Dashboard/>-->
+    <!--<Dashboard/>-->
     <!-- Comment out the ones you don't want to see -->
-    <!--<Login />-->
-     <!--<Home />-->
-     <Dashboard/>
-     <!--Connect />-->
-     <!--<Login /> -->
-     <!---<About />-->
-     <!-- <Connect /> -->
-     <!-- <Login /> -->
   </main>
     
 </template>

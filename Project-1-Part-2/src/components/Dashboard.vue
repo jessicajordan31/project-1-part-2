@@ -35,8 +35,12 @@
         </div>
         <p>20%</p>
    </div>
+<<<<<<< HEAD
    </div>
    <Footer />
+=======
+   
+>>>>>>> 5d44f58ed5deb90a1d883748cffe42a435356488
 </template>
 
 <style>
@@ -95,12 +99,15 @@ p{
     border-radius: 20px;
 }
 
+<<<<<<< HEAD
 .dashboard-container{
     width: 1200px;
     margin-right: auto;
     background-color: #f0f0f0;
     
 }
+=======
+>>>>>>> 5d44f58ed5deb90a1d883748cffe42a435356488
 
 h1{
     text-align: center;
