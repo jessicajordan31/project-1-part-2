@@ -1,14 +1,14 @@
 <script setup>
-<<<<<<< HEAD
+
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
-import About from './components/About.vue'
+
 import Dashboard from './components/Dashboard.vue'
-=======
+
   import About from './components/About.vue'
   import Connect from './components/Connect.vue'
   import Login from './components/Login.vue'
->>>>>>> bc4652cf3cf6d1589e00beb5dbdbec97d2fd3d3e
+
 </script>
 
 <template>
@@ -21,15 +21,11 @@ import Dashboard from './components/Dashboard.vue'
   </header> -->
 
   <main>
-<<<<<<< HEAD
-    <!-- -->
+
      <About />
-     <Dashboard/>
-=======
+     <!--<Dashboard/>-->
     <!-- Comment out the ones you don't want to see -->
-     <!-- <About /> -->
-     <Connect />
-     <!-- <Login /> -->
->>>>>>> bc4652cf3cf6d1589e00beb5dbdbec97d2fd3d3e
+     <!--<Connect />-->
+    <!--<Login />-->
   </main>
 </template>
