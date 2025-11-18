@@ -1,6 +1,7 @@
 <script setup>
     import Header from '../components/Header.vue'
     import Footer from '../components/Footer.vue'
+
 </script>
 
 <template>
@@ -34,6 +35,7 @@
         <p>20%</p>
    </div>
    </div>
+   <Footer />
 </template>
 
 <style>
@@ -53,6 +55,7 @@ p{
     padding: 40px;
     margin-top: 60px;
     margin-bottom: 60px;
+    box-shadow: 5px 10px 20px #505050;
 }
 .box2{
     border: 2px solid;
@@ -61,6 +64,7 @@ p{
     padding: 40px;
     margin-top: 60px;
     margin-bottom: 60px;
+    box-shadow: 5px 10px 20px #505050;
 }
 .box3{
     border: 2px solid;
@@ -69,6 +73,7 @@ p{
     padding: 40px;
     margin-top: 60px;
     margin-bottom: 60px;
+    box-shadow: 5px 10px 20px #505050;
 }
 
 .progress-bar1{
@@ -90,7 +95,18 @@ p{
 }
 
 .dashboard-container{
+    width: 1200px;
+    margin-right: auto;
+    background-color: #f0f0f0;
     
+}
+
+h1{
+    text-align: center;
+    font-family: "Jomolhari", serif;
+    font-size: 80px;
+    color: #000;
+    font-weight: 510;
 }
 
 </style>
