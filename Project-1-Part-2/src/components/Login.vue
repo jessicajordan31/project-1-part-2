@@ -15,7 +15,7 @@
                 <button class="btn-w submit-btn" type="submit">Login</button>
             </form>
             <div class="end-text">
-                <p>Go back to Home page.</p> <!-- add link to home-->
+                <p>Go back to <a href="./Home.vue">Home</a> page.</p> <!-- add link to home-->
                 <div class="bar"></div>
                 <p>Not a member? Sign up here.</p> 
             </div><br>

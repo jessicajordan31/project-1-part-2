@@ -1,14 +1,16 @@
 <script setup>
   import Footer from '../components/Footer.vue'
+  import Header from '../components/Header.vue'
 </script>
 
 <template>
+    <Header />
     <!-- Connect Headers -->
      <div class="heading">
         <div class="heading-text">
             <h1>Connect with Her Capital</h1>
             <h2 id="heading-h2">Build meaningful connections with goal-driven individuals</h2>
-            <button class="btn-w">Contact Us</button>
+            <button class="btn-w" style="padding: 1.7rem 4rem;">Contact Us</button>
         </div>
      </div>
 
@@ -78,7 +80,7 @@
                         <label for="message" class="form-label">Message</label>
                         <textarea name="Message" id="message" class="form-control" rows="5"></textarea>
                     </div>
-                    <button class="btn-w submit-btn" type="submit">Submit</button>
+                    <button class="btn-w submit-btn" type="submit" style="display: flex; align-items: center;">Submit</button>
                 </form>
             </div>
         </div>
@@ -134,12 +136,15 @@
     }
     .btn-w{
         background-color: #fff;
-        stroke: 1px solid #465786;
+        border: 1px solid #465786;
         border-radius: 8px;
-        padding: 10px 10px 10px 10px;
+        padding: 1.2rem 1.8rem;
         color: #000;
         font-size: 20px;
         margin-top: 30px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
     }
     .btn-w:hover{
         color: #fff;
@@ -263,7 +268,7 @@
         resize: vertical;
     }
     .btn-w.submit-btn {
-        padding: 0.6rem 0.75rem;
         margin: 1.5rem auto 0;
+        display: block;
     }
 </style>
