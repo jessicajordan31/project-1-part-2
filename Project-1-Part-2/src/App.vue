@@ -10,6 +10,7 @@
 <template>
   <main>
     <!--<Dashboard/>-->
+    <About />
     <!-- Comment out the ones you don't want to see -->
   </main>
     
