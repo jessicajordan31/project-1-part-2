@@ -83,10 +83,9 @@
             </div>
         </div>
      </div><br><br><br><br><br><br>
-
-     <div class="footer"> 
+    <div>
         <Footer />
-     </div>
+    </div>
 </template>
 
 <style>
@@ -261,8 +260,5 @@
     .btn-w.submit-btn {
         padding: 0.6rem 0.75rem;
         margin: 1.5rem auto 0;
-    }
-    .footer{
-        width: 100vw;
     }
 </style>
