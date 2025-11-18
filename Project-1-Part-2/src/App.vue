@@ -2,6 +2,7 @@
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 import About from './components/About.vue'
+import Dashboard from './components/Dashboard.vue'
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import About from './components/About.vue'
   <main>
     <!-- -->
      <About />
+     <Dashboard/>
   </main>
 </template>
 
