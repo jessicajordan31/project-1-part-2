@@ -83,18 +83,19 @@ import Footer from './Footer.vue'
 </template>
 
 <style scoped>
-:global(html, body, #app) {
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 100% !important;
-  overflow-x: hidden !important;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .home-page {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: #f0f0f0;
 }
 
 main {
@@ -123,7 +124,7 @@ main {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: 10% center;
+  object-position: right center; 
 }
 
 .hero-overlay {
@@ -150,7 +151,6 @@ main {
   font-family: 'Jomolhari', serif;
   font-size: 3.6rem;
   line-height: 1.1;
-  white-space: pre-line;
   text-shadow: 0 4px 18px rgba(0, 0, 0, 0.4);
   color: #ffffff;
 }
@@ -172,7 +172,7 @@ main {
 
 .btn-primary {
   background-color: #465786;
-  color: #ffffff;
+  color: #f0f0f0;
 }
 
 .btn-secondary {
@@ -194,7 +194,7 @@ main {
 }
 
 .stories-inner h2 {
-  font-family: "Jomolhari", serif;
+  font-family: 'Jomolhari', serif;
   font-size: 2.4rem;
   margin-bottom: 0.25rem;
 }
@@ -232,7 +232,7 @@ main {
 }
 
 .story-info h3 {
-  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
   font-size: 0.98rem;
   margin-bottom: 0.45rem;
 }
@@ -250,7 +250,8 @@ main {
 }
 
 .faq-tags button {
-  min-width: 360px;
+  width: 100%;
+  max-width: 360px;
   padding: 0.7rem 1.4rem;
   border-radius: 999px;
   border: 1px solid #a3bbe4;
@@ -307,11 +308,5 @@ main {
   .btn-secondary {
     width: 100%;
   }
-
-  .faq-tags button {
-    width: 100%;
-    max-width: 360px;
-  }
 }
 </style>
-

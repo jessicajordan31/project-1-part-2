@@ -14,10 +14,10 @@
     <!-- Comment out the ones you don't want to see -->
      <Home /> 
      <Support />
-     <About />
-     <!-- <Dashboard/> -->
-     <!-- <Connect /> -->
-     <!-- <Login /> -->
+     <About /> 
+     <Dashboard/>
+     <Connect />
+     <Login />
   </main>
     
 </template>
